@@ -67,7 +67,7 @@ If you want it anyway:
 
 Clone the repo and run it locally:
 
-git clone [https://github.com/your-username/teamup.git](https://github.com/MaMohm/TeamUp_frontend.git)
+git clone (https://github.com/MaMohm/TeamUp_frontend.git)
 cd teamup
 npm install
 npm run dev
