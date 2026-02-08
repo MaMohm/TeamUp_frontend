@@ -1,21 +1,115 @@
-# React + Vite
+🚀 TeamUp — React + Vite App
+<p align="center"> <img src="https://teamup-mrmn.onrender.com/favicon.ico" width="96" alt="TeamUp Logo" /> </p> <p align="center"> <strong>Fast. Modern. Built for collaboration.</strong> </p> <p align="center"> <a href="https://teamup-mrmn.onrender.com/">🌍 Live Demo</a> • <a href="#features">✨ Features</a> • <a href="#tech-stack">🧰 Tech Stack</a> • <a href="#getting-started">⚡ Getting Started</a> </p>
+🌐 Live Preview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+👉 Try it now:
+🔗 https://teamup-mrmn.onrender.com/
 
-# [[v](https://teamup-mrmn.onrender.com/)
-](https://teamup-mrmn.onrender.com/)
-<img width="1890" height="796" alt="image" src="https://github.com/user-attachments/assets/9df71cee-1d16-4836-8d3b-10409c56df55" />
+<p align="center"> <img width="100%" alt="TeamUp Screenshot" src="https://github.com/user-attachments/assets/9df71cee-1d16-4836-8d3b-10409c56df55" /> </p>
+🧠 What is TeamUp?
+
+TeamUp is a modern web application built with React and Vite, focused on speed, smooth developer experience, and clean UI.
+
+It’s designed to:
+
+Load fast ⚡
+
+Update instantly with Hot Module Replacement 🔥
+
+Scale easily for real production apps 📈
+
+This project uses Vite’s official React setup and keeps things simple, clean, and powerful.
+
+✨ Features
+
+✅ Lightning-fast development with Vite
+✅ Instant updates using Hot Module Replacement (HMR)
+✅ Clean and minimal project structure
+✅ ESLint configured for better code quality
+✅ Ready for production deployment
+✅ Deployed for free on Render 🌍
+
+🧰 Tech Stack
+Tool	Purpose
+⚛️ React	UI Library
+⚡ Vite	Build tool & dev server
+🔥 HMR	Instant updates
+🧹 ESLint	Code quality
+☁️ Render	Free hosting
+🔌 Available React Plugins
+
+You can choose one of the official Vite React plugins:
+
+🔹 @vitejs/plugin-react
+
+Uses Babel
+
+Stable and widely used
+
+Great default choice
+
+🔹 @vitejs/plugin-react-swc
+
+Uses SWC
+
+Faster builds
+
+Ideal for larger projects
+
+🧪 React Compiler (Optional)
+
+The React Compiler is not enabled by default because it can slow down development and builds.
+
+If you want it anyway:
+👉 https://react.dev/learn/react-compiler/installation
+
+⚡ Getting Started
+
+Clone the repo and run it locally:
+
+git clone https://github.com/your-username/teamup.git
+cd teamup
+npm install
+npm run dev
 
 
-Currently, two official plugins are available:
+Then open:
+👉 http://localhost:5173
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Deployment (Free)
 
-## React Compiler
+This project is deployed for free using Render.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Steps:
 
-## Expanding the ESLint configuration
+Push project to GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Connect repo to Render
+
+Set build command:
+
+npm run build
+
+
+Set start command:
+
+npm run preview
+
+
+Done 🎉 — your site is live.
+
+🧼 Code Quality
+
+ESLint is already configured.
+For production apps, consider upgrading to:
+
+TypeScript
+
+typescript-eslint with type-aware rules
+
+🔗 https://typescript-eslint.io
+
+❤️ Final Words
+
+This template is a solid foundation, not just a demo.
+Build fast, ship faster, and keep things clean.
